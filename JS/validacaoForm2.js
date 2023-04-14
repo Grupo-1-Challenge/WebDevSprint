@@ -5,7 +5,7 @@ function validarForm2() {
     let confSenha = document.getElementById("confirm-password").value;
     let dataNasc = document.getElementById("dob").value;
     let genero = document.getElementById("gender").value;
-  
+  //
     if (usuario === "") {
       alert("Por favor, preencha o campo usuário!");
       document.getElementById("username").focus();
